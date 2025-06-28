@@ -1,0 +1,1 @@
+This repository contains my personal notes, solutions to practice questions, and code examples from the CipherSchools Cybersecurity course (2025) as part of my summer training.
