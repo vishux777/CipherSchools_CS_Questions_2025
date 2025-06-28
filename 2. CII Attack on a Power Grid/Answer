@@ -1,0 +1,24 @@
+1. Why is a power grid classified under CII?
+    Critical Information Infrastructure (CII) has been defined in the Information Technology Act, 2000 as the computer resource, the incapacitation or destruction of which shall have debilitating impact on national security, economy, public health or safety.
+    A power grid is CII because its disruption would have a debilitating impact on national security, the economy, public health, and safety (e.g., widespread blackouts affecting hospitals, finance, defense). It's essential infrastructure, as recognized by India's NCIIPC.
+
+2. How do cyber threats to CII differ from threats to general IT systems?
+    Key differences:
+        (1) Impact: CII attacks can cause physical damage/loss of life; IT attacks 
+            cause data loss/financial harm.
+        (2) Priority: CII prioritizes safety and availability,
+            IT prioritizes confidentiality.
+        (3) Systems: CII often uses legacy OT/SCADA systems with proprietary 
+            protocols, harder to patch. IT uses more standard, modern systems.
+        (4) Motivation: CII often targeted by state-sponsored actors for disruption; 
+            IT by criminals for financial gain.
+
+3. What steps should be taken to strengthen CII security in this context?
+    (1) Strict IT/OT Segmentation: Isolate operational networks from corporate IT.
+    (2) Robust Access Controls: Implement least privilege and MFA for all access.
+    (3) Phishing Awareness Training: Continuous, targeted training for all employees
+        especially technicians.
+    (4) OT/ICS Monitoring: Deploy specialized systems to detect anomalies in SCADA traffic.
+    (5) Vulnerability Management: Systematically patch and securely configure all 
+        IT/OT assets.
+    (6) Incident Response: Develop and test specific plans for OT/SCADA disruptions.
