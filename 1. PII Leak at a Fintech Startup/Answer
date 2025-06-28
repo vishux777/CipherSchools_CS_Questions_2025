@@ -18,6 +18,8 @@
         (5) Infrastructure as Code (IaC): Manage configurations 
             through version-controlled, secure templates.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 3. What are the immediate and long-term measures the company must take?
     Immediate Measures:
         Containment: Immediately block public access to the bucket; revoke 
