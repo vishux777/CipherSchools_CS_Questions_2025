@@ -1,0 +1,52 @@
+1. What are the cybersecurity principles violated here (CIA Triad)?
+    The ransomware attack violates all three pillars of the CIA Triad — Confidentiality, Integrity, and Availability:
+        (1) Availability:
+            Access to patient data and operational systems has been blocked, 
+            disrupting essential healthcare services such as surgeries 
+            and treatments.
+        (2) Confidentiality:
+            Sensitive patient data, including personally identifiable
+            information (PII), may have been accessed or stolen. This leads
+            to privacy violations and potential misuse of medical data.
+        (3) Integrity:
+            There is a risk that patient records were tampered with or 
+            corrupted. Altered medical information can result in wrong 
+            diagnoses or unsafe treatments.
+    
+--------------------------------------------------------------------------------------------------------------------------------
+
+2. How could PII and CII be involved in this situation?
+    (1) Personally Identifiable Information (PII):
+        Patient names, contact details, medical histories, 
+        insurance data, and government-issued IDs could be 
+        compromised. If leaked or sold, this data could be used 
+        for identity theft or financial fraud.
+
+    (2) Critical Information Infrastructure (CII):
+        Hospitals are classified as part of CII because they 
+        are essential to public health and safety. Any disruption 
+        can threaten lives and national stability, making their 
+        protection a top priority under national cybersecurity policies.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+3. Propose a cybersecurity framework the hospital should adopt going forward.
+    To prevent similar incidents in the future, the hospital should adopt a robust
+    cybersecurity strategy. One of the most effective frameworks is the NIST 
+    Cybersecurity Framework (CSF), which includes:
+        (1) Identify:
+            Understand critical assets, risks, and vulnerabilities.
+        (2) Protect:
+            Implement technical controls such as encryption, access 
+            restrictions, antivirus systems, and patch management.
+        (3) Detect:
+            Deploy monitoring and logging tools to identify 
+            suspicious activities early.
+        (4) Respond:
+            Develop and regularly update an incident response plan 
+            to handle cyberattacks effectively.
+        (5) Recover:
+            Maintain secure backups and test disaster recovery procedures 
+            to ensure quick restoration of services.
+
+--------------------------------------------------------------------------------------------------------------------------------
