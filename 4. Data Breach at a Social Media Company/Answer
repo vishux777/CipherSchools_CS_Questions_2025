@@ -1,0 +1,51 @@
+1. Classify the types of data exposed (PII or not).
+    The following types of data were leaked:
+        (1) Passwords :- PII – While technically not identifying 
+            alone, passwords when linked with usernames or emails 
+            become a major privacy risk.
+        (2) Private Messages :- PII – Messages often contain names, 
+            contact info, addresses, and personal or sensitive conversations.
+        (3) Location Histories :- PII – Precise location data can be 
+            used to track a person’s movements and infer sensitive 
+            lifestyle patterns.
+    All of these data types are classified as PII under most global 
+    privacy laws (GDPR, CCPA, etc.) due to their potential to identify 
+    or profile individuals.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+2. What were likely technical and human errors that caused the breach?
+    (1) Technical Errors:
+        (A) Weak or outdated encryption for passwords.
+        (B) Lack of end-to-end encryption for private messages.
+        (C) Insecure APIs exposing location data.
+        (D) Improper access controls that allowed unauthorized queries to the database.
+        (E) No proper anomaly detection system to identify data exfiltration patterns.
+
+    (2) Human Errors:
+        (A) Social engineering or phishing attacks targeting employees.
+        (B) Misconfigured cloud storage buckets.
+        (C) Failure to apply critical security patches on time.
+        (D) Poor password hygiene among employees/admins.
+        (E) Over-permissive roles granted to internal staff or third-party vendors.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+3. How does this case reflect the broader need for cybersecurity?
+    This case reflects the broader and growing need for robust cybersecurity 
+    in today's ' digital landscape. As social media platforms become central to 
+    communication, networking, and personal expression, they also become prime 
+    targets for cyberattacks. The breach underscores how deeply personal 
+    information—such as passwords, private messages, and location histories—can 
+    be exploited when security is insufficient. It highlights the necessity of 
+    implementing strong encryption standards, strict access controls, and 
+    proactive monitoring systems. Moreover, it shows that cybersecurity is 
+    not just a technical concern but a strategic and ethical responsibility. 
+    Organizations must invest in secure architectures like zero-trust models, 
+    train their employees to recognize social engineering tactics, and 
+    regularly audit their systems for vulnerabilities. Ultimately, incidents 
+    like this erode user trust, damage reputations, and emphasize that 
+    cybersecurity must be foundational—not optional—in the design and operation 
+    of any digital service handling personal data.
+
+--------------------------------------------------------------------------------------------------------------------------------
