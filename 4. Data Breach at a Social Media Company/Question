@@ -1,0 +1,9 @@
+Scenario:
+
+A major social media platform suffers a breach where user data such as passwords, messages, and location histories are leaked and sold on the dark web.
+
+Question:
+
+Classify the types of data exposed (PII or not).
+What were likely technical and human errors that caused the breach?
+How does this case reflect the broader need for cybersecurity?
