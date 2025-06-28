@@ -9,8 +9,7 @@
 
 2. How could this incident have been prevented?
     This type of incident can be prevented by using strict security measures, some of them are:
-        (1) Strict Access Controls: Enforce the Principle of least privleage for AWS 
-            S3 buckets.
+        (1) Strict Access Controls: Enforce the Principle of least privleage.
         (2) Block Public Access: Enable AWS's "Block Public Access" feature 
             by default.
         (3) Regular Audits: Continuously monitor and audit AWS configurations.
@@ -22,24 +21,21 @@
 
 3. What are the immediate and long-term measures the company must take?
     Immediate Measures:
-        Containment: Immediately block public access to the bucket; revoke 
+        (1) Containment: Immediately block public access to the bucket and revoke 
             unauthorized credentials.
-
-        Forensics: Preserve logs; conduct a rapid investigation to determine the 
+        (2) Forensics: Preserve logs and  conduct a rapid investigation to determine the 
             breach's scope.
-
-        Notification: Inform affected customers and relevant data protection 
-            authorities (e.g., CERT-In, if applicable) promptly.
-
+        (3) Notification: Inform affected customers and relevant data protection 
+            authorities.
 
     Long-Term Measures:
+        (1) Enhanced Cloud Security Governance: Implement robust policies, 
+            automated security tools and continuous monitoring.
+        (2) Employee Training: Conduct mandatory and recurring cybersecurity training 
+            for all staff.
+        (3) Data Minimization: Review and reduce unnecessary collection or we can 
+            say retention of PII.
+        (4) Incident Response Plan Refinement: Update and regularly test the 
+            incident response plan.
 
-Enhanced Cloud Security Governance: Implement robust policies, automated security tools (e.g., AWS Security Hub, Macie), and continuous monitoring.
-
-Employee Training: Conduct mandatory and recurring cybersecurity training for all staff.
-
-Data Minimization: Review and reduce unnecessary collection/retention of PII.
-
-Incident Response Plan Refinement: Update and regularly test the incident response plan based on lessons learned.
-
-Compliance: Ensure full adherence to data protection regulations (e.g., India's IT Act, DPDP Bill, GDPR where applicable).
+--------------------------------------------------------------------------------------------------------------------------------
