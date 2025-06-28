@@ -1,6 +1,10 @@
 1. Why is a power grid classified under CII?
-    Critical Information Infrastructure (CII) has been defined in the Information Technology Act, 2000 as the computer resource, the incapacitation or destruction of which shall have debilitating impact on national security, economy, public health or safety.
-    A power grid is CII because its disruption would have a debilitating impact on national security, the economy, public health, and safety (e.g., widespread blackouts affecting hospitals, finance, defense). It's essential infrastructure, as recognized by India's NCIIPC.
+    Critical Information Infrastructure (CII) has been defined in the Information
+    Technology Act, 2000 as the computer resource, the incapacitation or destruction 
+    of which shall have debilitating impact on national security, economy, public health or safety.
+    A power grid is CII because its disruption would have a debilitating impact 
+    on national security, the economy, public health, and safety (e.g., widespread 
+    blackouts affecting hospitals, finance, defense). It's essential infrastructure, as recognized by India's NCIIPC.
 
 2. How do cyber threats to CII differ from threats to general IT systems?
     Key differences:
