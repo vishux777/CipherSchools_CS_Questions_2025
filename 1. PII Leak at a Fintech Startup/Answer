@@ -1,29 +1,43 @@
 1. What kind of data was compromised (identify PII)?
-    Compromised data included:
-        (1) Names
-        (2) Phone Numbers
-        (3) Aadhaar Numbers (highly sensitive PII)
-        (4) Bank Account Details (highly sensitive PII/financial data)
+    Customer personal data was compromised which mainly included:
+        (1) Names (PII)
+        (2) Phone Numbers (PII)
+        (3) Aadhaar Numbers (highly sensitive PII because works as National ID)
+        (4) Bank Account Details (highly sensitive PII as this may cause financial loses)
+
+-------------------------------------------------------------------------------------------
 
 2. How could this incident have been prevented?
-    Key prevention methods:
-
-Strict Access Controls: Enforce "least privilege" for AWS S3 buckets.
-
-Block Public Access (BPA): Enable AWS's "Block Public Access" feature by default.
-
-Regular Audits: Continuously monitor and audit AWS configurations for misconfigurations.
-
-Developer Training: Educate teams on secure cloud practices and PII handling.
-
-Infrastructure as Code (IaC): Manage configurations through version-controlled, secure templates.
+    This type of incident can be prevented by using strict security measures, some of them are:
+        (1) Strict Access Controls: Enforce the Principle of least privleage for AWS 
+            S3 buckets.
+        (2) Block Public Access: Enable AWS's "Block Public Access" feature 
+            by default.
+        (3) Regular Audits: Continuously monitor and audit AWS configurations.
+        (4) Developer Training: Educate teams on secure cloud practices and PII handling.
+        (5) Infrastructure as Code (IaC): Manage configurations 
+            through version-controlled, secure templates.
 
 3. What are the immediate and long-term measures the company must take?
+    Immediate Measures:
+        Containment: Immediately block public access to the bucket; revoke 
+            unauthorized credentials.
 
-Immediate Measures:
+        Forensics: Preserve logs; conduct a rapid investigation to determine the 
+            breach's scope.
 
-Containment: Immediately block public access to the bucket; revoke unauthorized credentials.
+        Notification: Inform affected customers and relevant data protection 
+            authorities (e.g., CERT-In, if applicable) promptly.
 
-Forensics: Preserve logs; conduct a rapid investigation to determine the breach's scope.
 
-Notification: Inform affected customers and relevant data protection authorities (e.g., CERT-In, if applicable) promptly.
+    Long-Term Measures:
+
+Enhanced Cloud Security Governance: Implement robust policies, automated security tools (e.g., AWS Security Hub, Macie), and continuous monitoring.
+
+Employee Training: Conduct mandatory and recurring cybersecurity training for all staff.
+
+Data Minimization: Review and reduce unnecessary collection/retention of PII.
+
+Incident Response Plan Refinement: Update and regularly test the incident response plan based on lessons learned.
+
+Compliance: Ensure full adherence to data protection regulations (e.g., India's IT Act, DPDP Bill, GDPR where applicable).
