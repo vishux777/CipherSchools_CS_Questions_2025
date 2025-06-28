@@ -1,0 +1,29 @@
+1. What kind of data was compromised (identify PII)?
+    Compromised data included:
+        (1) Names
+        (2) Phone Numbers
+        (3) Aadhaar Numbers (highly sensitive PII)
+        (4) Bank Account Details (highly sensitive PII/financial data)
+
+2. How could this incident have been prevented?
+    Key prevention methods:
+
+Strict Access Controls: Enforce "least privilege" for AWS S3 buckets.
+
+Block Public Access (BPA): Enable AWS's "Block Public Access" feature by default.
+
+Regular Audits: Continuously monitor and audit AWS configurations for misconfigurations.
+
+Developer Training: Educate teams on secure cloud practices and PII handling.
+
+Infrastructure as Code (IaC): Manage configurations through version-controlled, secure templates.
+
+3. What are the immediate and long-term measures the company must take?
+
+Immediate Measures:
+
+Containment: Immediately block public access to the bucket; revoke unauthorized credentials.
+
+Forensics: Preserve logs; conduct a rapid investigation to determine the breach's scope.
+
+Notification: Inform affected customers and relevant data protection authorities (e.g., CERT-In, if applicable) promptly.
