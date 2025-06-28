@@ -6,6 +6,8 @@
     on national security, the economy, public health, and safety (e.g., widespread 
     blackouts affecting hospitals, finance, defense). It's essential infrastructure, as recognized by India's NCIIPC.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 2. How do cyber threats to CII differ from threats to general IT systems?
     Key differences:
         (1) Impact: CII attacks can cause physical damage/loss of life; IT attacks 
@@ -17,6 +19,8 @@
         (4) Motivation: CII often targeted by state-sponsored actors for disruption; 
             IT by criminals for financial gain.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 3. What steps should be taken to strengthen CII security in this context?
     (1) Strict IT/OT Segmentation: Isolate operational networks from corporate IT.
     (2) Robust Access Controls: Implement least privilege and MFA for all access.
@@ -26,3 +30,5 @@
     (5) Vulnerability Management: Systematically patch and securely configure all 
         IT/OT assets.
     (6) Incident Response: Develop and test specific plans for OT/SCADA disruptions.
+
+--------------------------------------------------------------------------------------------------------------------------------
