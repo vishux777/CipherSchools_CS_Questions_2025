@@ -1,0 +1,8 @@
+Scenario:
+
+A hospital’s systems are infected by ransomware, locking patient records and halting surgeries. The attackers demand payment in cryptocurrency to unlock the systems.
+
+Question:
+What are the cybersecurity principles violated here (CIA Triad)?
+How could PII and CII be involved in this situation?
+Propose a cybersecurity framework the hospital should adopt going forward.
