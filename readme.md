@@ -1,1 +1,1 @@
-This repository contains my personal notes, solutions to practice questionsfrom the CipherSchools Cybersecurity course (2025) as part of my summer training.
+This repository contains my personal notes, solutions to practice questionsfrom the CipherSchools Cybersecurity course (2025) as part of my summer training from my college.
